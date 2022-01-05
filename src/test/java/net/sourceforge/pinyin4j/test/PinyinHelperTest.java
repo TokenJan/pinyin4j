@@ -43,6 +43,26 @@ public class PinyinHelperTest {
       }
     }
     {
+      String[] expectedPinyinArray = new String[] {"hua1"};
+      String[] pinyinArray = PinyinHelper.toTongyongPinyinStringArray('婲');
+
+      assertEquals(expectedPinyinArray.length, pinyinArray.length);
+
+      for (int i = 0; i < expectedPinyinArray.length; i++) {
+        assertEquals(expectedPinyinArray[i], pinyinArray[i]);
+      }
+    }
+    {
+      String[] expectedPinyinArray = new String[] {"ye0"};
+      String[] pinyinArray = PinyinHelper.toTongyongPinyinStringArray('亪');
+
+      assertEquals(expectedPinyinArray.length, pinyinArray.length);
+
+      for (int i = 0; i < expectedPinyinArray.length; i++) {
+        assertEquals(expectedPinyinArray[i], pinyinArray[i]);
+      }
+    }
+    {
       String[] expectedPinyinArray = new String[] {"ciou2"};
       String[] pinyinArray = PinyinHelper.toTongyongPinyinStringArray('球');
 
