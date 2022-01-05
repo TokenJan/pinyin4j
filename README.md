@@ -1,16 +1,17 @@
 ## pinyin4j
 
 #### 项目来源
-本项目基于 pinyin4j 和 belerweb.pinyin4j 进行再次封装改造。   
+本项目基于 pinyin4j, belerweb.pinyin4j, wnjustdoit.pinyin4j 进行再次封装改造。   
 * http://sourceforge.net/projects/pinyin4j （原始）
 * https://github.com/belerweb/pinyin4j （二次封装，但已经不维护了，有部分缺陷）
+* https://github.com/wnjustdoit/pinyin4j （二次封装，但已经不维护了，有部分缺陷）
 
 #### maven坐标
 ```
         <dependency>
-            <groupId>io.github.wnjustdoit</groupId>
+            <groupId>com.github.tokenjan</groupId>
             <artifactId>pinyin4j</artifactId>
-            <version>2.6.0</version>
+            <version>2.6.1</version>
         </dependency>
 ```
 

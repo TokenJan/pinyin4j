@@ -9,16 +9,16 @@
         <version>7</version>
     </parent>
 
-    <groupId>io.github.wnjustdoit</groupId>
+    <groupId>com.github.tokenjan</groupId>
     <artifactId>pinyin4j</artifactId>
-    <version>2.6.0</version>
+    <version>2.6.1</version>
 
     <name>Chinese to Pinyin</name>
     <description>Support Chinese character (both Simplified and Tranditional) to most popular Pinyin systems, including
         Hanyu Pinyin, Tongyong Pinyin, Wade-Giles, MPS2, Yale and Gwoyeu Romatzyh. Support multiple pronounciations and
         customized output.
     </description>
-    <url>https://github.com/wnjustdoit/pinyin4j</url>
+    <url>https://github.com/TokenJan/pinyin4j</url>
 
     <licenses>
         <license>
@@ -29,20 +29,20 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:https://github.com/wnjustdoit/pinyin4j.git</connection>
-        <developerConnection>scm:git:https://github.com/wnjustdoit/pinyin4j.git</developerConnection>
-        <url>https://github.com/wnjustdoit/pinyin4j.git</url>
+        <connection>scm:git:https://github.com/TokenJan/pinyin4j.git</connection>
+        <developerConnection>scm:git:https://github.com/TokenJan/pinyin4j.git</developerConnection>
+        <url>https://github.com/TokenJan/pinyin4j.git</url>
     </scm>
     <issueManagement>
         <system>Github Issue</system>
-        <url>https://github.com/wnjustdoit/pinyin4j/issues</url>
+        <url>https://github.com/TokenJan/pinyin4j/issues</url>
     </issueManagement>
     <developers>
         <developer>
-            <id>wnjustdoit</id>
-            <name>Nan Wang</name>
-            <email>wnjustdoit@gmail.com</email>
-            <url>https://github.com/wnjustdoit</url>
+            <id>TokenJan</id>
+            <name>Jiahuan Yang</name>
+            <email>jiahuan.yang@outlook.com</email>
+            <url>https://github.com/TokenJan</url>
         </developer>
     </developers>
 
