@@ -9,7 +9,7 @@
 #### maven坐标
 ```
         <dependency>
-            <groupId>com.github.tokenjan</groupId>
+            <groupId>io.github.tokenjan</groupId>
             <artifactId>pinyin4j</artifactId>
             <version>2.6.1</version>
         </dependency>
