@@ -50,9 +50,9 @@ import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombi
  */
 /**
  * A demo show the functions of pinyin4j library
- * 
+ *
  * @author Li Min (xmlerlimin@gmail.com)
- * 
+ *
  */
 public class Pinyin4jAppletDemo extends JApplet {
   private static final Dimension APP_SIZE = new Dimension(600, 400);
@@ -83,7 +83,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes charTextField
-   * 
+   *
    * @return javax.swing.JTextField
    */
   private JTextField getCharTextField() {
@@ -98,7 +98,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedCharPanel
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getUnformattedCharPanel() {
@@ -124,7 +124,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedHanyuPinyinTextArea
-   * 
+   *
    * @return javax.swing.JTextArea
    */
   private JTextArea getUnformattedHanyuPinyinTextArea() {
@@ -138,7 +138,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedHanyuPinyinPanel
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getUnformattedHanyuPinyinPanel() {
@@ -153,7 +153,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedTongyongPinyinPanel
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getUnformattedTongyongPinyinPanel() {
@@ -172,7 +172,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedTongyongPinyinTextArea
-   * 
+   *
    * @return javax.swing.JTextArea
    */
   private JTextArea getUnformattedTongyongPinyinTextArea() {
@@ -186,7 +186,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedWadePinyinPanel
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getUnformattedWadePinyinPanel() {
@@ -203,7 +203,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedWadePinyinTextArea
-   * 
+   *
    * @return javax.swing.JTextArea
    */
   private JTextArea getUnformattedWadePinyinTextArea() {
@@ -217,7 +217,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedMPS2PinyinPanel
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getUnformattedMPS2PinyinPanel() {
@@ -234,7 +234,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedMPS2PinyinTextArea
-   * 
+   *
    * @return javax.swing.JTextArea
    */
   private JTextArea getUnformattedMPS2PinyinTextArea() {
@@ -248,7 +248,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedYalePinyinPanel
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getUnformattedYalePinyinPanel() {
@@ -265,7 +265,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedYalePinyinTextArea
-   * 
+   *
    * @return javax.swing.JTextArea
    */
   private JTextArea getUnformattedYalePinyinTextArea() {
@@ -279,7 +279,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedGwoyeuRomatzyhPanel
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getUnformattedGwoyeuRomatzyhPanel() {
@@ -298,7 +298,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedGwoyeuRomatzyhTextArea
-   * 
+   *
    * @return javax.swing.JTextArea
    */
   private JTextArea getUnformattedGwoyeuRomatzyhTextArea() {
@@ -312,7 +312,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedMPS2PinyinScrollPane
-   * 
+   *
    * @return javax.swing.JScrollPane
    */
   private JScrollPane getUnformattedMPS2PinyinScrollPane() {
@@ -325,7 +325,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedHanyuPinyinScrollPane
-   * 
+   *
    * @return javax.swing.JScrollPane
    */
   private JScrollPane getUnformattedHanyuPinyinScrollPane() {
@@ -338,7 +338,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedTongyongPinyinScrollPane
-   * 
+   *
    * @return javax.swing.JScrollPane
    */
   private JScrollPane getUnformattedTongyongPinyinScrollPane() {
@@ -351,7 +351,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedWadePinyinScrollPane
-   * 
+   *
    * @return javax.swing.JScrollPane
    */
   private JScrollPane getUnformattedWadePinyinScrollPane() {
@@ -364,7 +364,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedYalePinyinScrollPane
-   * 
+   *
    * @return javax.swing.JScrollPane
    */
   private JScrollPane getUnformattedYalePinyinScrollPane() {
@@ -377,7 +377,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes unformattedGwoyeuRomatzyhScrollPane
-   * 
+   *
    * @return javax.swing.JScrollPane
    */
   private JScrollPane getUnformattedGwoyeuRomatzyhScrollPane() {
@@ -390,8 +390,6 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   static public void main(String argv[]) {
     final Pinyin4jAppletDemo appletDemo = new Pinyin4jAppletDemo();
-
-    System.runFinalizersOnExit(true);
 
     JFrame jFrame = new JFrame(appName);
     jFrame.addWindowListener(new WindowAdapter() {
@@ -421,7 +419,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes this
-   * 
+   *
    * @return void
    */
   public void init() {
@@ -432,7 +430,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes jContentPane
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getJContentPane() {
@@ -448,7 +446,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes jTabbedPane
-   * 
+   *
    * @return javax.swing.JTabbedPane
    */
   private JTabbedPane getJTabbedPane() {
@@ -463,7 +461,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes jPanel3
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getFormattedCharPanel() {
@@ -477,7 +475,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes jPanel
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getOptionPanel() {
@@ -502,7 +500,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes jButton
-   * 
+   *
    * @return javax.swing.JButton
    */
   private JButton getConvertButton() {
@@ -606,7 +604,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes jPanel2
-   * 
+   *
    * @return javax.swing.JPanel
    */
   private JPanel getButtonPanel() {
@@ -619,7 +617,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes jTextArea1
-   * 
+   *
    * @return javax.swing.JTextArea
    */
   private JTextArea getFormattedOutputField() {
@@ -632,7 +630,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes jComboBox
-   * 
+   *
    * @return javax.swing.JComboBox
    */
   private JComboBox getToneTypesComboBox() {
@@ -654,7 +652,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes jComboBox1
-   * 
+   *
    * @return javax.swing.JComboBox
    */
   private JComboBox getVCharTypesComboBox() {
@@ -666,7 +664,7 @@ public class Pinyin4jAppletDemo extends JApplet {
 
   /**
    * This method initializes jComboBox2
-   * 
+   *
    * @return javax.swing.JComboBox
    */
   private JComboBox getCaseTypesComboBox() {

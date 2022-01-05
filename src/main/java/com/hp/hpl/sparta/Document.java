@@ -226,7 +226,7 @@ public class Document extends Node {
     }
 
     /**
-     * @param a value of the indexing attribute
+     * @param attrValue value of the indexing attribute
      * @return enumeration of Elements
      * @throws ParseException when XPath that created this Index is malformed.
      */
